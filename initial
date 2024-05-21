@@ -1,0 +1,9 @@
+# Initialize a variable to store the sum
+total = 0
+
+# Loop through numbers from 1 to 100 and add them to the total
+for num in range(1, 101):
+    total += num
+
+# Print the sum
+print("The sum of numbers from 1 to 100 is:", total)
